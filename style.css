@@ -1,0 +1,82 @@
+/* Cabeçalho */
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    line-height: 150%;
+}
+.header{
+    background-color: rgb(17, 98, 219);
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.header h1{
+    color:rgb(246, 244, 241);
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+.header social{
+    text-align: right;
+    margin-top: 8px;
+}
+.header .social a{
+    padding: 0 5px;
+    text-decoration: nome;
+}
+/* Conteúdo principal */
+.content{
+    margin-top: -20px;
+    background-color: aqua;
+}
+.quem{
+    padding: 30px;
+    margin-bottom: -110px;
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(55, 2, 104);
+}
+.paragrafos{
+    padding: 4em;
+    font-size: normal;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+}
+p{
+    margin-bottom: -20px;
+}
+.Tlista{
+    text-align: center;
+}
+.lista{
+    list-style-type: none;
+    border-left: 1px solid black;
+    margin-left: 40%;
+    padding: 0;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+a li{
+    display: block;
+    color: black;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: large;
+}
+.img{
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+/* rodapé */
+.footer{
+    background-color: grey;
+    text-align: center;
+    padding: 30px 10px;
+    font-family: 'Roboto', sans-serif;
+}
